@@ -1,0 +1,22 @@
+{
+	"name": "SqlPoolTable3",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [
+			{
+				"name": "name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "AGT_ODS",
+			"table": "DIM_UOM_MASTER"
+		},
+		"sqlPool": {
+			"referenceName": "ttdedicatedpool",
+			"type": "SqlPoolReference"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

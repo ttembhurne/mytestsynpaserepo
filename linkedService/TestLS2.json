@@ -1,0 +1,19 @@
+{
+	"name": "TestLS2",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://ttsynwrkstrgacc.dfs.core.windows.net",
+			"credential": {
+				"referenceName": "ttembhurne_testuamiCredential1",
+				"type": "CredentialReference"
+			}
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

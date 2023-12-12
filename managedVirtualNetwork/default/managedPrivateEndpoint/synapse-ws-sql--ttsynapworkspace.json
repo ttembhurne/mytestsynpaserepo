@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sql--ttsynapworkspace",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/47de8cda-665a-423a-bae4-d0a7609f500c/resourceGroups/ttembhurneresgrp/providers/Microsoft.Synapse/workspaces/ttsynapworkspace",
+		"groupId": "sql",
+		"fqdns": [
+			"ttsynapworkspace.9f3fc6a0-4207-4c9c-99e2-eb879b7d6366.sql.azuresynapse.net"
+		]
+	}
+}
